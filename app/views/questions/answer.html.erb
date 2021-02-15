@@ -1,0 +1,15 @@
+<div class="container my-5">
+  <div class="user-ask mt-3">
+    <h2><%= @user_input_ask %></h2>
+    <h4>-You</h4>
+  </div>
+
+  <div class="coach-answer mt-5">
+    <h2><%= @coach_answer %></h2>
+    <h4>-Your coach</h4>
+  </div>
+
+  <div class='btn btn-primary link'>
+    <%= link_to "Ask a new question", ask_path%>
+  </div>
+</div>
